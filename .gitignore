@@ -1,0 +1,5 @@
+node_modules
+dist
+.framer-id.tmp
+*.local
+.DS_Store

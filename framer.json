@@ -1,0 +1,6 @@
+{
+    "id": "9fa3c6",
+    "name": "Open Sync",
+    "modes": ["configureManagedCollection", "syncManagedCollection"],
+    "icon": "/icon.svg"
+}
