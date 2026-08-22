@@ -2,7 +2,7 @@
 
 A free, open-source Framer plugin that syncs **any RESTful JSON API** into a Framer CMS
 collection — an open alternative to paid API-sync plugins. Works out of the box with
-[OpenCMS](https://github.com/clawnify/open-cms), and with any endpoint that returns a
+[OpenCMS](https://github.com/clawnify/OpenCMS), and with any endpoint that returns a
 JSON array of records.
 
 ## How it works
