@@ -15,12 +15,12 @@ import StarterKit from "@tiptap/starter-kit"
  * Generic REST/JSON → Framer CMS sync.
  *
  * Point the plugin at any endpoint that returns a JSON array of records
- * (Open CMS, a headless CMS, an internal API…). Fields are inferred from
+ * (OpenCMS, a headless CMS, an internal API…). Fields are inferred from
  * the response and every field's Framer type can be overridden in the
  * mapping step. Value conversion is keyed on the *target* Framer field
  * type, so the same engine serves any source.
  *
- * Open CMS works out of the box via two inference heuristics: Tiptap rich
+ * OpenCMS works out of the box via two inference heuristics: Tiptap rich
  * text (`{ "type": "doc", … }`) is rendered to HTML for `formattedText`,
  * and relative `/api/uploads/…` image URLs are absolutized against the
  * source origin.

@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "type": "module",
-    "description": "Open-source Framer CMS sync — connect any REST/JSON API (and Open CMS) to a Framer CMS collection.",
+    "description": "Open-source Framer CMS sync — connect any REST/JSON API (and OpenCMS) to a Framer CMS collection.",
     "engines": {
         "node": ">=20.19"
     },
