@@ -1,8 +1,8 @@
-# Open Sync — any REST/JSON API → Framer CMS
+# OpenFramerSync — any REST/JSON API → Framer CMS
 
 A free, open-source Framer plugin that syncs **any RESTful JSON API** into a Framer CMS
 collection — an open alternative to paid API-sync plugins. Works out of the box with
-[Open CMS](https://github.com/clawnify/open-cms), and with any endpoint that returns a
+[OpenCMS](https://github.com/clawnify/open-cms), and with any endpoint that returns a
 JSON array of records.
 
 ## How it works
@@ -36,7 +36,7 @@ converted to match the **target Framer type**:
 | Image / File      | URL string; **relative paths are absolutized** against the source origin     |
 | Link / Color      | string                                                                       |
 
-**Open CMS specifics** are handled automatically: rich-text stored as Tiptap JSON is rendered to
+**OpenCMS specifics** are handled automatically: rich-text stored as Tiptap JSON is rendered to
 HTML for Formatted Text fields, and relative `/api/uploads/…` image URLs are made absolute.
 
 > Enum and collection-reference fields are out of scope for v1 (they need case / related-collection
@@ -46,7 +46,7 @@ HTML for Formatted Text fields, and relative `/api/uploads/…` image URLs are m
 
 - Returns a JSON **array** of records (or an object with an array property — set the items path).
 - **CORS**: the endpoint must allow cross-origin reads from the Framer editor, since the plugin
-  fetches it from the browser. Open CMS's public read API already does.
+  fetches it from the browser. OpenCMS's public read API already does.
 - Each record needs a stable, unique, string-ish field to use as the **slug**.
 
 ## Development

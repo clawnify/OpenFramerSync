@@ -1,6 +1,6 @@
 {
     "id": "9fa3c6",
-    "name": "Open Sync",
+    "name": "OpenFramerSync",
     "modes": ["configureManagedCollection", "syncManagedCollection"],
     "icon": "/icon.svg"
 }

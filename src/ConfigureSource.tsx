@@ -41,7 +41,7 @@ export function ConfigureSource({ onDataSource }: ConfigureSourceProps) {
             <div className="intro">
                 <div className="content">
                     <h2>Connect a Source</h2>
-                    <p>Sync any REST/JSON API — including Open CMS — into this collection.</p>
+                    <p>Sync any REST/JSON API — including OpenCMS — into this collection.</p>
                 </div>
             </div>
 
